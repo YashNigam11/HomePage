@@ -1,0 +1,770 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+.form-control {
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 2px solid black;
+  margin-left: 5rem;
+}
+.banner img {
+  height: 100%;
+  width: 100%;
+}
+.icons {
+  display: flex;
+}
+.logo-container::before {
+  content: "";
+  height: 0px;
+  width: 0;
+  position: absolute;
+  left: 338px;
+  border-right: solid 25px transparent;
+  border-left: solid 43px transparent;
+  border-bottom: solid 75px #212529;
+}
+main {
+  background-color: #d9d9d9;
+}
+.profile {
+  position: relative;
+}
+.profile-pic {
+  position: absolute;
+  left: 107px;
+  top: -16px;
+}
+.profile-pic img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+}
+
+ul {
+  margin: 0;
+}
+
+.naming-convection-title {
+  /* text-align: center; */
+  font-size: 2.25rem;
+  background-color: #624c03;
+  background: radial-gradient(
+    35.79% 266.81% at 15.91% 59.2%,
+    #f9bc16 0%,
+    #f8bb16 0.78%,
+    #f8bb16 1.17%,
+    #f7bb16 1.56%,
+    #f7ba16 1.95%,
+    #f6ba16 2.34%,
+    #f6ba15 2.73%,
+    #f6ba15 3.12%,
+    #f5b915 3.52%,
+    #f5b915 3.91%,
+    #f4b915 4.3%,
+    #f4b815 4.69%,
+    #f4b815 5.08%,
+    #f3b815 5.47%,
+    #f3b815 5.86%,
+    #f3b715 6.25%,
+    #f2b715 6.64%,
+    #f2b715 7.03%,
+    #f1b715 7.42%,
+    #f1b615 7.81%,
+    #f1b614 8.2%,
+    #f0b614 8.59%,
+    #f0b514 8.98%,
+    #efb514 9.38%,
+    #efb514 9.77%,
+    #efb514 10.16%,
+    #eeb414 10.55%,
+    #eeb414 10.94%,
+    #edb414 11.33%,
+    #edb314 11.72%,
+    #edb314 12.11%,
+    #ecb314 12.5%,
+    #ecb314 12.89%,
+    #ebb213 13.28%,
+    #ebb213 13.67%,
+    #ebb213 14.06%,
+    #eab213 14.45%,
+    #eab113 14.84%,
+    #e9b113 15.23%,
+    #e9b113 15.62%,
+    #e9b013 16.02%,
+    #e8b013 16.41%,
+    #e8b013 16.8%,
+    #e8b013 17.19%,
+    #e7af13 17.58%,
+    #e7af13 17.97%,
+    #e6af13 18.36%,
+    #e6ae12 18.75%,
+    #e6ae12 19.14%,
+    #e5ae12 19.53%,
+    #e5ae12 19.92%,
+    #e4ad12 20.31%,
+    #e4ad12 20.7%,
+    #e4ad12 21.09%,
+    #e3ad12 21.48%,
+    #e3ac12 21.88%,
+    #e2ac12 22.27%,
+    #e2ac12 22.66%,
+    #e2ab12 23.05%,
+    #e1ab12 23.44%,
+    #e1ab12 23.83%,
+    #e1ab11 24.22%,
+    #e0aa11 24.61%,
+    #e0aa11 25%,
+    #dfaa11 25.39%,
+    #dea911 26.17%,
+    #dea911 26.95%,
+    #dda811 27.73%,
+    #dca711 28.52%,
+    #dba710 29.3%,
+    #daa610 30.08%,
+    #daa610 30.86%,
+    #d9a510 31.64%,
+    #d8a510 32.42%,
+    #d7a410 33.2%,
+    #d7a410 33.98%,
+    #d6a30f 34.77%,
+    #d5a20f 35.55%,
+    #d4a20f 36.33%,
+    #d4a10f 37.11%,
+    #d3a10f 37.89%,
+    #d2a00f 38.67%,
+    #d1a00f 39.45%,
+    #d09f0e 40.23%,
+    #d09f0e 41.02%,
+    #cf9e0e 41.8%,
+    #ce9d0e 42.58%,
+    #cd9d0e 43.36%,
+    #cd9c0e 44.14%,
+    #cc9c0e 44.92%,
+    #cb9b0d 45.7%,
+    #ca9b0d 46.48%,
+    #ca9a0d 47.27%,
+    #c99a0d 48.05%,
+    #c8990d 48.83%,
+    #c7990d 49.61%,
+    #c7980d 50.39%,
+    #c6980d 50.78%,
+    #c6980d 51.17%,
+    #c5970c 51.56%,
+    #c5970c 51.95%,
+    #c5970c 52.34%,
+    #c4970c 52.73%,
+    #c4960c 53.12%,
+    #c4960c 53.52%,
+    #c3960c 53.91%,
+    #c3950c 54.3%,
+    #c2950c 54.69%,
+    #c2950c 55.08%,
+    #c2950c 55.47%,
+    #c1940c 55.86%,
+    #c1940c 56.25%,
+    #c1940c 56.64%,
+    #c0940b 57.03%,
+    #c0930b 57.42%,
+    #bf930b 57.81%,
+    #bf930b 58.2%,
+    #bf920b 58.59%,
+    #be920b 58.98%,
+    #be920b 59.38%,
+    #bd920b 59.77%,
+    #bd910b 60.16%,
+    #bd910b 60.55%,
+    #bc910b 60.94%,
+    #bc910b 61.33%,
+    #bc900b 61.72%,
+    #bb900b 62.11%,
+    #bb900a 62.5%,
+    #ba8f0a 62.89%,
+    #b98f0a 63.67%,
+    #b98e0a 64.45%,
+    #b88e0a 65.23%,
+    #b78d0a 66.02%,
+    #b68d0a 66.8%,
+    #b68c0a 67.58%,
+    #b58c09 68.36%,
+    #b48b09 69.14%,
+    #b38b09 69.92%,
+    #b38a09 70.7%,
+    #b28909 71.48%,
+    #b18909 72.27%,
+    #b08809 73.05%,
+    #b08808 73.83%,
+    #af8708 74.61%,
+    #ae8708 75.39%,
+    #ae8708 75.78%,
+    #ae8608 76.17%,
+    #ad8608 76.56%,
+    #ad8608 76.95%,
+    #ad8608 77.34%,
+    #ac8508 77.73%,
+    #ac8508 78.12%,
+    #ab8508 78.52%,
+    #ab8508 78.91%,
+    #ab8407 79.3%,
+    #aa8407 79.69%,
+    #aa8407 80.08%,
+    #aa8407 80.47%,
+    #a98307 80.86%,
+    #a98307 81.25%,
+    #a88307 81.64%,
+    #a88207 82.42%,
+    #a78207 83.2%,
+    #a68107 83.98%,
+    #a58106 84.77%,
+    #a58006 85.55%,
+    #a47f06 86.33%,
+    #a37f06 87.11%,
+    #a37f06 87.89%,
+    #a27e06 88.28%,
+    #a27e06 88.67%,
+    #a27e06 89.06%,
+    #a17e06 89.45%,
+    #a17d06 89.84%,
+    #a07d06 90.23%,
+    #a07d06 90.63%,
+    #a07c05 91.02%,
+    #9f7c05 91.8%,
+    #9e7b05 92.58%,
+    #9d7b05 93.36%,
+    #9d7a05 94.14%,
+    #9d7a05 94.53%,
+    #9c7a05 94.92%,
+    #9c7a05 95.31%,
+    #9b7905 95.7%,
+    #9b7904 96.48%,
+    #9a7904 97.27%,
+    #9a7804 97.66%,
+    #997804 98.05%,
+    #987704 98.83%,
+    #987704 100%
+  );
+}
+
+.naming-convection-count {
+  background: #231f20;
+  font-size: 1.75rem;
+  padding: 1.75rem;
+}
+
+.naming-convection {
+  padding: 1.75rem;
+  font-size: 1.75rem;
+  background-color: #01461f;
+}
+
+li {
+  list-style: none;
+  margin: 0 7.5rem;
+  text-align: center;
+}
+
+.location,
+.location-country {
+  background-color: #231f20;
+  margin-bottom: 2rem;
+  padding: 1.3rem;
+}
+.paragraph {
+  font-size: 10px;
+}
+.reviews {
+  margin-top: 2rem;
+  margin-left: 18.25rem;
+  margin-right:auto ;
+}
+.web{
+  border-bottom-left-radius: 60px;
+}
+.card {
+  border: none;
+  /* border-bottom-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important; */
+}
+.card-header {
+  background-color: #231f20;
+  padding: 1.25rem;
+}
+.round{
+  border-bottom-left-radius:25px ;
+  border-bottom-right-radius:25px ;
+}
+.card-body {
+  background-color: #f1f1f1;
+}
+.card-icons {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+.icon {
+  border-radius: 2.25rem;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #027835 0%,
+    #027835 12.5%,
+    #027735 15.23%,
+    #027635 15.62%,
+    #027634 16.02%,
+    #027634 16.41%,
+    #027534 16.8%,
+    #027534 17.19%,
+    #027434 17.58%,
+    #027434 17.97%,
+    #027434 18.36%,
+    #027334 18.75%,
+    #027334 19.14%,
+    #027233 19.53%,
+    #027233 19.92%,
+    #027233 20.31%,
+    #027133 20.7%,
+    #037133 21.09%,
+    #037033 21.48%,
+    #037033 21.88%,
+    #037033 22.27%,
+    #036f32 22.66%,
+    #036f32 23.05%,
+    #036e32 23.44%,
+    #036e32 23.83%,
+    #036e32 24.22%,
+    #036d32 24.61%,
+    #036d32 25%,
+    #036c32 25.39%,
+    #036b31 26.17%,
+    #036b31 26.95%,
+    #036a31 27.73%,
+    #036931 28.52%,
+    #036831 29.3%,
+    #036830 30.08%,
+    #036730 30.86%,
+    #036630 31.64%,
+    #036530 32.42%,
+    #03652f 33.2%,
+    #03642f 33.98%,
+    #03632f 34.77%,
+    #04622f 35.55%,
+    #04622f 36.33%,
+    #04612e 37.11%,
+    #04602e 37.89%,
+    #045f2e 38.67%,
+    #045f2e 39.45%,
+    #045e2e 40.23%,
+    #045d2d 41.02%,
+    #045c2d 41.8%,
+    #045c2d 42.58%,
+    #045b2d 43.36%,
+    #045a2c 44.14%,
+    #04592c 44.92%,
+    #04592c 45.7%,
+    #04582c 46.48%,
+    #04572c 47.27%,
+    #04572b 48.05%,
+    #04562b 48.83%,
+    #04552b 49.61%,
+    #05552b 50.39%,
+    #05542b 50.78%,
+    #05542b 51.17%,
+    #05542b 51.56%,
+    #05532a 51.95%,
+    #05532a 52.34%,
+    #05532a 52.73%,
+    #05522a 53.12%,
+    #05522a 53.52%,
+    #05512a 53.91%,
+    #05512a 54.3%,
+    #05512a 54.69%,
+    #05502a 55.08%,
+    #05502a 55.47%,
+    #05502a 55.86%,
+    #054f29 56.25%,
+    #054f29 56.64%,
+    #054f29 57.03%,
+    #054e29 57.42%,
+    #054e29 57.81%,
+    #054d29 58.2%,
+    #054c29 59.38%,
+    #054b28 60.55%,
+    #054a28 61.72%,
+    #054a28 62.89%,
+    #054928 63.67%,
+    #054827 64.45%,
+    #054827 65.23%,
+    #054727 66.02%,
+    #064627 66.8%,
+    #064627 67.58%,
+    #064526 68.36%,
+    #064526 69.14%,
+    #064426 69.92%,
+    #064326 70.7%,
+    #064326 71.48%,
+    #064226 72.27%,
+    #064225 73.05%,
+    #064125 73.83%,
+    #064025 74.61%,
+    #064025 75.39%,
+    #063f25 76.56%,
+    #063e24 77.73%,
+    #063d24 78.91%,
+    #063c24 80.08%,
+    #063c24 81.25%,
+    #063b24 82.42%,
+    #063a23 83.2%,
+    #063a23 83.98%,
+    #063923 84.77%,
+    #073823 86.33%,
+    #073723 87.89%,
+    #073722 89.06%,
+    #073622 90.23%,
+    #073522 91.41%,
+    #073522 92.19%,
+    #073422 92.97%,
+    #073422 94.53%,
+    #073321 95.7%,
+    #073221 97.66%,
+    #073221 100%
+  );
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.fa-solid {
+  color: white;
+}
+.rev {
+  background: radial-gradient(
+    35.79% 266.81% at 15.91% 59.2%,
+    #f9bc16 0%,
+    #f8bb16 0.78%,
+    #f8bb16 1.17%,
+    #f7bb16 1.56%,
+    #f7ba16 1.95%,
+    #f6ba16 2.34%,
+    #f6ba15 2.73%,
+    #f6ba15 3.12%,
+    #f5b915 3.52%,
+    #f5b915 3.91%,
+    #f4b915 4.3%,
+    #f4b815 4.69%,
+    #f4b815 5.08%,
+    #f3b815 5.47%,
+    #f3b815 5.86%,
+    #f3b715 6.25%,
+    #f2b715 6.64%,
+    #f2b715 7.03%,
+    #f1b715 7.42%,
+    #f1b615 7.81%,
+    #f1b614 8.2%,
+    #f0b614 8.59%,
+    #f0b514 8.98%,
+    #efb514 9.38%,
+    #efb514 9.77%,
+    #efb514 10.16%,
+    #eeb414 10.55%,
+    #eeb414 10.94%,
+    #edb414 11.33%,
+    #edb314 11.72%,
+    #edb314 12.11%,
+    #ecb314 12.5%,
+    #ecb314 12.89%,
+    #ebb213 13.28%,
+    #ebb213 13.67%,
+    #ebb213 14.06%,
+    #eab213 14.45%,
+    #eab113 14.84%,
+    #e9b113 15.23%,
+    #e9b113 15.62%,
+    #e9b013 16.02%,
+    #e8b013 16.41%,
+    #e8b013 16.8%,
+    #e8b013 17.19%,
+    #e7af13 17.58%,
+    #e7af13 17.97%,
+    #e6af13 18.36%,
+    #e6ae12 18.75%,
+    #e6ae12 19.14%,
+    #e5ae12 19.53%,
+    #e5ae12 19.92%,
+    #e4ad12 20.31%,
+    #e4ad12 20.7%,
+    #e4ad12 21.09%,
+    #e3ad12 21.48%,
+    #e3ac12 21.88%,
+    #e2ac12 22.27%,
+    #e2ac12 22.66%,
+    #e2ab12 23.05%,
+    #e1ab12 23.44%,
+    #e1ab12 23.83%,
+    #e1ab11 24.22%,
+    #e0aa11 24.61%,
+    #e0aa11 25%,
+    #dfaa11 25.39%,
+    #dea911 26.17%,
+    #dea911 26.95%,
+    #dda811 27.73%,
+    #dca711 28.52%,
+    #dba710 29.3%,
+    #daa610 30.08%,
+    #daa610 30.86%,
+    #d9a510 31.64%,
+    #d8a510 32.42%,
+    #d7a410 33.2%,
+    #d7a410 33.98%,
+    #d6a30f 34.77%,
+    #d5a20f 35.55%,
+    #d4a20f 36.33%,
+    #d4a10f 37.11%,
+    #d3a10f 37.89%,
+    #d2a00f 38.67%,
+    #d1a00f 39.45%,
+    #d09f0e 40.23%,
+    #d09f0e 41.02%,
+    #cf9e0e 41.8%,
+    #ce9d0e 42.58%,
+    #cd9d0e 43.36%,
+    #cd9c0e 44.14%,
+    #cc9c0e 44.92%,
+    #cb9b0d 45.7%,
+    #ca9b0d 46.48%,
+    #ca9a0d 47.27%,
+    #c99a0d 48.05%,
+    #c8990d 48.83%,
+    #c7990d 49.61%,
+    #c7980d 50.39%,
+    #c6980d 50.78%,
+    #c6980d 51.17%,
+    #c5970c 51.56%,
+    #c5970c 51.95%,
+    #c5970c 52.34%,
+    #c4970c 52.73%,
+    #c4960c 53.12%,
+    #c4960c 53.52%,
+    #c3960c 53.91%,
+    #c3950c 54.3%,
+    #c2950c 54.69%,
+    #c2950c 55.08%,
+    #c2950c 55.47%,
+    #c1940c 55.86%,
+    #c1940c 56.25%,
+    #c1940c 56.64%,
+    #c0940b 57.03%,
+    #c0930b 57.42%,
+    #bf930b 57.81%,
+    #bf930b 58.2%,
+    #bf920b 58.59%,
+    #be920b 58.98%,
+    #be920b 59.38%,
+    #bd920b 59.77%,
+    #bd910b 60.16%,
+    #bd910b 60.55%,
+    #bc910b 60.94%,
+    #bc910b 61.33%,
+    #bc900b 61.72%,
+    #bb900b 62.11%,
+    #bb900a 62.5%,
+    #ba8f0a 62.89%,
+    #b98f0a 63.67%,
+    #b98e0a 64.45%,
+    #b88e0a 65.23%,
+    #b78d0a 66.02%,
+    #b68d0a 66.8%,
+    #b68c0a 67.58%,
+    #b58c09 68.36%,
+    #b48b09 69.14%,
+    #b38b09 69.92%,
+    #b38a09 70.7%,
+    #b28909 71.48%,
+    #b18909 72.27%,
+    #b08809 73.05%,
+    #b08808 73.83%,
+    #af8708 74.61%,
+    #ae8708 75.39%,
+    #ae8708 75.78%,
+    #ae8608 76.17%,
+    #ad8608 76.56%,
+    #ad8608 76.95%,
+    #ad8608 77.34%,
+    #ac8508 77.73%,
+    #ac8508 78.12%,
+    #ab8508 78.52%,
+    #ab8508 78.91%,
+    #ab8407 79.3%,
+    #aa8407 79.69%,
+    #aa8407 80.08%,
+    #aa8407 80.47%,
+    #a98307 80.86%,
+    #a98307 81.25%,
+    #a88307 81.64%,
+    #a88207 82.42%,
+    #a78207 83.2%,
+    #a68107 83.98%,
+    #a58106 84.77%,
+    #a58006 85.55%,
+    #a47f06 86.33%,
+    #a37f06 87.11%,
+    #a37f06 87.89%,
+    #a27e06 88.28%,
+    #a27e06 88.67%,
+    #a27e06 89.06%,
+    #a17e06 89.45%,
+    #a17d06 89.84%,
+    #a07d06 90.23%,
+    #a07d06 90.63%,
+    #a07c05 91.02%,
+    #9f7c05 91.8%,
+    #9e7b05 92.58%,
+    #9d7b05 93.36%,
+    #9d7a05 94.14%,
+    #9d7a05 94.53%,
+    #9c7a05 94.92%,
+    #9c7a05 95.31%,
+    #9b7905 95.7%,
+    #9b7904 96.48%,
+    #9a7904 97.27%,
+    #9a7804 97.66%,
+    #997804 98.05%,
+    #987704 98.83%,
+    #987704 100%
+  );
+}
+
+button {
+  background-color: #52b8ba;
+  border-radius: 1.25rem;
+  padding: 0.25rem 1.25rem;
+  border: none;
+  color: white;
+}
+.nav-icons{
+  display: flex;
+}
+
+@media only screen and (max-width: 1400px) {
+  .profile-pic {
+    left: 15px;
+    top: 35px;
+  }
+  .reviews{
+   align-items: center;
+   justify-content: center;
+   margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile-pic img {
+    height: 120px;
+    width: 120px;
+  }
+  .logo-container::before {
+    content: "";
+    height: 0px;
+    width: 0;
+    position: absolute;
+    left: 308px;
+    top: -2px;
+    border-right: solid 25px transparent;
+    border-left: solid 43px transparent;
+    border-bottom: solid 75px #212529;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .review {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .reviews {
+    flex-direction: column;
+  }
+
+  .naming-convection {
+    font-size: 1rem;
+  }
+
+  li {
+    margin: 3rem;
+  }
+
+  .profile-pic {
+    left: 15px;
+    top: 35px;
+  }
+
+  .profile-pic img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  .card {
+    max-width: 90% !important;
+    margin: 18px;
+  }
+
+  .intro-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-container::before{
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px)  {
+  .logo-container::before{
+    display: none;
+  }
+  .navbar .card-icons {
+    display: none;
+  }
+  .logo-container {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .logo-container {
+    width: 100% !important;
+  }
+  .navbar .card-icons {
+    display: none;
+  }
+
+  .container-fluid {
+    flex-direction: column;
+    width: 100%;
+    align-items: initial !important;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .stats-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  li {
+    margin: 5px;
+  }
+
+  .naming-convection-title {
+    font-size: 1rem;
+  }
+
+  .profile-pic {
+    top: 40px;
+  }
+}
