@@ -49,6 +49,9 @@ main {
 ul {
   margin: 0;
 }
+.bd-bottom{
+  border-bottom-left-radius: 25px;
+}
 
 .naming-convection-title {
   /* text-align: center; */
